@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".changeusers.ChangeUsers"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorSiemens">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Changement de login et de l'email"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorWhite"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nouveau nom d'affichage : "
+        android:layout_marginTop="100dp"
+        android:textColor="#000"/>
+    <EditText
+        android:inputType="text"
+        android:id="@+id/login_change"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+    <Button
+        android:id="@+id/change_users_confirm"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Enregistrer"
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

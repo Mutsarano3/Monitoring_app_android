@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supervision.CuveWrite"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorSiemens"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuve Ecriture"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorWhite"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premier Byte"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <Switch
+            android:id="@+id/var1_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <Switch
+            android:id="@+id/var2_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            />
+
+        <Switch
+            android:id="@+id/var3_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+             />
+        <Switch
+            android:id="@+id/var4_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+             />
+        <Switch
+            android:id="@+id/var5_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var6_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var7_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var8_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deuxieme Byte"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <Switch
+            android:id="@+id/var20_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <Switch
+            android:id="@+id/var21_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            />
+
+        <Switch
+            android:id="@+id/var23_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            />
+        <Switch
+            android:id="@+id/var24_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var25_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var26_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var27_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <Switch
+            android:id="@+id/var28_switch_cuve"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficheurs niveau "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/var_cuve_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Variable entière 1 "
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/var_cuve_2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Variable entière 2"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/var_cuve_3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Variable entière 3"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/var_cuve_4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Variable entière 4"
+        android:inputType="number"
+        android:layout_marginBottom="150dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>

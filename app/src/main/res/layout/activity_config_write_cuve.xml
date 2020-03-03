@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supervision.ConfigWriteCuve"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/colorSiemens">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuration \n de variable cuve"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 1 (BOOLEAN) : "
+        android:textColor="#000"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/var1_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 2.Bol (BOOLEAN) : "
+        android:textColor="#000"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/var1bol_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 2 (INT) : "
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/var2_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 3 (INT) : "
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/var3_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 4 (INT) : "
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/var4_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable 5 (INT) : "
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/var5_write_cuve"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/confirm_cuve"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Confirmer"/>
+
+
+
+</LinearLayout>
+</ScrollView>

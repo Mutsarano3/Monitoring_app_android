@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.heh.main">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".changeusers.ChangeUsers"></activity>
+        <activity android:name=".supervision.CuveWrite" />
+        <activity android:name=".supervision.ConfigWriteCuve" />
+        <activity android:name=".supervision.ConfigWriteComprime" />
+        <activity android:name=".supervision.ComprimeWrite" />
+        <activity android:name=".supervision.CuveReadBon" />
+        <activity android:name=".supervision.ComprimeRead" />
+        <activity android:name=".info_automate.InfoAutomate" />
+        <activity android:name=".delete_users.Delete" />
+        <activity android:name=".supervision.ConnexionS7" />
+        <activity android:name=".supervision.Configuration" />
+        <activity android:name=".gestion_users.Gestion_users" />
+        <activity android:name=".changesuper.ChangePasswordUsers" />
+        <activity android:name=".Accueil.AccueilUsers" />
+        <activity android:name=".connection.Connexion_users" />
+        <activity android:name=".form.FormUsers" />
+        <activity android:name=".changesuper.ChangePassword" />
+        <activity android:name=".Accueil.AccueilSuper" />
+        <activity android:name=".connection.Connexion_Super" />
+        <activity android:name=".menu.Menu" />
+        <activity android:name=".form.FormSuperAdmin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

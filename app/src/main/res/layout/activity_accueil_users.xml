@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accueil.AccueilSuper"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#009999">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu utilisateurs"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:fontFamily="monospace"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/super_admin"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Données personnelles"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:background="@color/colorOrange"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/login_txt_users"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/role_users"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role :"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/mail_txt_users"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Email :"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opérations"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:background="@color/colorOrange"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_change_mdp_users"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="Changer de mot de passe"
+        />
+    <Button
+        android:id="@+id/btn_change_users"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Changer le nom d'affichage "
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back_menu_users"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:text="Retourner au menu "
+            />
+
+        <Button
+            android:id="@+id/supervision_users"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:text="Accéder a la supervision"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

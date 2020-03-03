@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.Menu"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#0C94CD">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu de l'application"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:paddingTop="20dp"
+        android:textSize="25dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/android"
+        android:layout_marginTop="35dp"/>
+</FrameLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/heh"/>
+
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Connexion super administrateur"
+
+        android:id="@+id/superadminconnect"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Inscription Utilisateur"
+        android:id="@+id/inscriptionutilisateur"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Connexion utilisateur"
+        android:id="@+id/connexionusers"/>
+
+
+
+</LinearLayout>

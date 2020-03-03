@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linecuveread"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supervision.ComprimeRead"
+    android:background="#AAA"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorSiemens"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supervision Lecture \n Comprimés"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Entrées : "
+        android:layout_marginBottom="10dp"/>
+    <TextView
+    android:id="@+id/commutateur_service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:text="Commutateur de mise en service : UNKNOW"
+    android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/demande_5_comprimés"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="BP demande de 5 comprimés: UNKNOW"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/demande_10_comprimés"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="BP demande de 10 comprimés: UNKNOW"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/demande_15_comprimés"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="BP demande de 15 comprimés: UNKNOW"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/presence_tube_remplissage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Presence fiole sous poste : UNKNOW "
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Etat du moteur: "
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/moteur_bande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Moteur pour bande : UNKNOW "
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Afficheur :  "
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/affichage_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Bouteilles remplies : UNKNOW "
+        android:layout_marginBottom="5dp"/>
+
+
+
+
+</LinearLayout>

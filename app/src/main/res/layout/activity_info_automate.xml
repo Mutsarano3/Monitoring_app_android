@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info_automate.InfoAutomate"
+    android:orientation="vertical"
+    android:id="@+id/view_info">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorSiemens">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Informations sur l'automate connecter"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="monospace"
+            />
+    </FrameLayout>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_info_cpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information CPU : Indisponible "
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_module_type_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information type module : Indisponible "
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_name_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information nom  module : Indisponible "
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DB: Indisponible"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etat: Indisponible  "
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informations réseau"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="19dp"
+        />
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorOrange"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_ip_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP adresse: Indisponible"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_Rack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rack: Indisponible "
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot:  Indisponible"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/btn_normal"
+            android:id="@+id/signal_analogique"
+            android:text="Signal analogique"
+            android:layout_marginTop="35dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            />
+        <Button
+            android:background="@drawable/btn_normal"
+            android:id="@+id/serveur_web"
+            android:text="Serveur Web"
+            android:layout_marginTop="35dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

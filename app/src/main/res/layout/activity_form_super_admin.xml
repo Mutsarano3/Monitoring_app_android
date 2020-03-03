@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form.FormSuperAdmin"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="inscription super admin"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            />
+        <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@color/colorOrange"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom d'affichage"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:textColor="#FFF"/>
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <TextView
+            android:id="@+id/errorlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erreur login"
+            android:visibility="invisible"
+            android:textColor="@color/colorError"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_gravity="center"
+            android:textColor="#FFF"/>
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <TextView
+            android:id="@+id/erroremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erreur mail"
+            android:inputType="textEmailAddress"
+            android:visibility="invisible"
+            android:textColor="@color/colorError"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:layout_gravity="center"
+            android:textColor="#FFF"/>
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmer mot de passe :"
+            android:gravity="center"
+            android:textColor="#FFF"/>
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPassword"/>
+        <TextView
+            android:id="@+id/errorpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erreur mot de passe"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorError"
+            />
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Enregistrer"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="450dp"/>
+</LinearLayout>

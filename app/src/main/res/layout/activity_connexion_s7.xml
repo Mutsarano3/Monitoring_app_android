@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supervision.ConnexionS7"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorSiemens">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Menu connexion S7"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:fontFamily="monospace"/>
+        <ImageView
+            android:layout_width="304dp"
+            android:layout_height="64dp"
+            android:src="@drawable/siemens"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/connexion_automate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Connexion"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/info_automate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Infos sur l'automate"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Comprime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Comprimés Lecture"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Cuve"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cuve Lecture"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Cuve_w"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cuve Ecriture"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Comprime_w"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Comprime Ecriture"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delete_users.Delete"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorSiemens">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suppression d'un utilisateur"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saisissez un id existant"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginTop="75dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/id_delete"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="number"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/back_to_users"
+        android:layout_marginTop="25dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Voir les utilisateurs"/>
+    <Button
+        android:background="@drawable/btnmenu"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/delete_users"
+        android:layout_marginTop="25dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Supprimer l'utilisateur"/>
+    <TextView
+        android:id="@+id/error_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Erreur l'id n'existe pas"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorError"
+        android:visibility="gone"/>
+
+</LinearLayout>

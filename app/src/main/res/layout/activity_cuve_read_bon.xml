@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#AAA">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Cuve_bon_read"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supervision.CuveReadBon"
+    android:orientation="vertical"
+    android:background="#AAA">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorSiemens">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="Supervision lecture Cuve"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Entrées : "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/commutateur_manu_auto"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Commutateur manual/auto: Unknow"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/valve1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Commutateur Valve1: Unknow"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/valve2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Commutateur Valve2: Unknow"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/valve3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Commutateur Valve3: Unknow"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/valve4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Commutateur Valve4: Unknow"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Sorties: "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Q1: Unknow"
+        android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/Q2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Q2: Unknow"
+        android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Q3: Unknow"
+        android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/Q4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Q4: Unknow"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Afficheurs: "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/afficheurs_niveau"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Niveau : Unknow"
+        android:textSize="12dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>
